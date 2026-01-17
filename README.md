@@ -11,7 +11,9 @@ Anything else that it doesn't understand will remain the same as when you wrote 
 
 ## Project Status
 
-md2gemini is now archived. It’s always been a pile of hacks, and now I’m not that invested in continuing it. See my [blog post](https://www.makeworld.space/2023/08/bye_gemini.html) for details.
+[Upstream md2gemini](https://github.com/makew0rld/md2gemini) is now archived. See the [blog post](https://www.makeworld.space/2023/08/bye_gemini.html) for details.
+
+I'm still using this, so I give it a minimum of maintenance.
 
 ## Link modes
 
@@ -100,11 +102,8 @@ This is a second paragraph, with a different link in it.
 
 ## Installation
 ```
-pip3 install md2gemini
+uv tool install "git+https://github.com/karlb/md2gemini"
 ```
-You may also want to use the `--user` flag after `install`, to only install the package for your user.
-
-Note that this package only officially supports Python 3.
 
 ## Usage
 
