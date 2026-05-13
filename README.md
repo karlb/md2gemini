@@ -1,3 +1,6 @@
+> [!WARNING]
+> This project is no longer maintained. I suggest using [gemtext.lua](https://github.com/karlb/gemtext.lua) with pandoc instead.
+
 # md2gemini
 
 [![PyPI downloads](https://img.shields.io/pypi/dm/md2gemini)](https://pypi.org/project/md2gemini)
